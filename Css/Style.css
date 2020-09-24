@@ -1,0 +1,210 @@
+/* Common Css */
+*{
+    box-sizing: border-box;
+}
+section{
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.section-headline{
+    padding-bottom: 20px;
+}
+/* _________________________________________________________________________ */
+
+/* Basic css*/
+h1 {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 65px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    display: inline-block;
+    margin: 0;
+    padding: 5px;
+}
+h1::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+}
+h1::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+}
+.card {
+    border: none;
+    box-shadow: 10px 10px 15px rgb(31, 30, 30);
+    border-radius: 10px;
+}
+.card-project{
+    margin-top: 40px;
+}
+.project-btn{
+    text-align: center;
+    margin-top: 50px;
+}
+.btn-project-a{
+    color: #48f713;
+}
+/* _________________________________________________________________________ */
+/* Nav section css */
+#hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/Hero-section-images.jpg) no-repeat center / cover;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+    font-size: 30px;
+}
+.nav-style{
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #48f713;
+}
+
+.nav-contact{
+    border: 2px solid #7510F7;
+    border-radius: 15px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color:#fff
+}
+.navbar-light .navbar-nav .nav-contact {
+    color:#fdfdfd;
+}
+/* Hero section */
+.hero-text-box {
+    color: #fff;
+    width: 1180px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.hero-h3{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.btn-use{
+    color:#7510F7;
+    font-size: 20px;
+    border: 2px solid #7510F7;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-decoration: none
+}
+.btn-use:hover{
+    font-size: 20px;
+    background-color: #7510F7;
+    color: #fff;
+    text-decoration: none
+}
+/* About section */
+.about-image{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px ;
+}
+.about-details{
+    padding-left: 20px;
+}
+.service-icon{
+    display: inline-block;
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 30px;
+    border: 2px solid;
+    border-radius: 50%;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.about-card-images{
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+}
+/* services section */
+.projects-images{
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+}
+#project{
+    background: #f7f310;
+}
+#contact{
+    background: #4edf22;
+}
+.text{
+    display: inline;
+}
+.contact-me{
+    background: rgb(37, 36, 36);
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px rgb(41, 39, 39);
+    
+}
+.text-color{
+    color: #fff;
+}
+.contact-text-items{
+    padding: 15px 10px;
+}
+.call{
+    height: 40px;
+    width: 40px;
+    padding-bottom: 10px;
+}
+.minus-icon{
+    width: 50%;
+    height: 50px;
+    margin-top: -40px;
+}
+.contact-middle{
+    margin: auto;
+    margin-top: 50px;
+}
+.contact-conversion{
+    margin: 10px;
+    padding-bottom: 25px;
+}
+.contact-btn{
+    margin: 20px;
+}
+footer{
+    background-color: black;
+    padding: 80px 0px;
+}
+.footer-icon{
+    background: white;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+}
+.footer-icon:hover{
+    background: greenyellow;
+}
+.copyright{
+    width: 20px;
+    height: 20px;
+}
