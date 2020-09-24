@@ -52,6 +52,14 @@ h1::before {
 .btn-project-a{
     color: #48f713;
 }
+.skill{
+    color: rgb(64, 14, 243);
+    font-weight: bold;
+}
+.Wordpress-skill{
+    color: indigo;
+    font-weight: bold;
+}
 /* _________________________________________________________________________ */
 /* Nav section css */
 #hero {
@@ -87,6 +95,9 @@ h1::before {
 }
 .navbar-light .navbar-nav .nav-contact {
     color:#fdfdfd;
+}
+.card-title-name{
+    font-weight: bold;
 }
 /* Hero section */
 .hero-text-box {
